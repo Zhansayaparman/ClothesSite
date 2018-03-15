@@ -26,7 +26,7 @@ class Clothes_name(models.Model):
     clothes = models.ForeignKey('Clothes', on_delete=models.SET_NULL, null=True) 
     imprint = models.CharField(max_length=200)
     due_back = models.DateField(null=True, blank=True)
-
+# Статустар тізімі
     LOAN_STATUS = (
         ('m', 'FIRMADAGY'),
         ('o', 'Satylymda'),
