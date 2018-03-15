@@ -19,7 +19,7 @@ class Clothes(models.Model):
         return reverse('odezhda-detail', args=[str(self.id)])
 
 import uuid 
-
+#Clothes_name классын курамын
 class Clothes_name(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, help_text="id")
