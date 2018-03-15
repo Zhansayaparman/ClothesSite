@@ -43,7 +43,7 @@ class Clothes_name(models.Model):
     def __str__(self):
 
         return '%s (%s)' % (self.id,self.clothes.clothes)
-
+#Firma классын курамын
 class Firma(models.Model):
 
     firma_name = models.CharField(max_length=100)
